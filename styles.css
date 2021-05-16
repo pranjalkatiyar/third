@@ -1,0 +1,162 @@
+body{
+background-color: #fbfaf8;
+font-family: 'Source Sans Pro', sans-serif;
+
+}
+h1,h2
+{
+    color: #407982;
+}
+p{
+  color:  #6b6b6b;
+  font-weight:bold;
+  line-height: 1.5;
+}
+/* navigation */
+
+#navigationbar
+{
+ 
+}
+.logo
+{
+    width: 18%;
+}
+
+/* homepage */
+.img-fluid
+{
+    he
+}
+.home1
+{
+   
+   
+    height: 600px;
+    
+}
+/* aboutus */
+.aboutus
+{
+padding: 3% 5%;
+    text-align:left;
+}
+.image1
+{
+    width: 528px;
+    height: 400px;
+    float:right;
+}
+/* contactus */
+/* Services */
+
+.services{
+    padding:3% 5%
+}
+.serviceskey {
+    border: 0;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+#moore {
+    display: none;
+}
+
+#content {
+    display: none;
+}
+
+#mooore {
+    display: none;
+}
+
+#coontent {
+    display: none;
+}
+
+#moooore {
+    display: none;
+}
+
+#cooontent {
+    display: none;
+}
+#moore {display: none;}
+#content{display: none;}
+#contactus
+{
+    padding:3% 5%
+    height:100%
+}
+
+/* leaders */
+#leaders
+{
+   padding: 3% 15%;
+
+}
+#more {
+    display: none;
+    padding: 3% 5%;
+    line-height: 1.5;
+}
+
+#most
+{
+    display: none;
+    padding: 3% 5%;
+    line-height: 1.5;
+}
+.readmorebtn
+{
+    border: none;
+    color: #6b6b6b;
+    text-decoration: underline;
+    border-radius: 0;
+
+}
+
+.leaderscontent
+{
+    padding: 3% 5%;
+    text-align: left;
+    padding-right: 15%;
+}
+.profile
+{
+    padding: 3% 5%;
+    width: 80%;
+    height:63%;
+}
+/* Contact Us  */
+#contactus
+{
+    background-color: #dae4e5;
+    padding:3% 5%
+    
+}
+.submit
+{
+    border-radius: 0;
+    color: white;
+    background-color: #626a72;
+}
+
+
+/* footer1  */
+.footer1
+{
+    padding: 5%;
+    background-color:#3e686e;
+    color: white;
+    text-align: center;
+    padding
+}
+.footer1 a{
+    color:white;
+text-indent: 2%;
+font-size: 20.536px;
+
+}
+#footerhead
