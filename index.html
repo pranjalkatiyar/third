@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">  
+<!-- css  -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,700&display=swap" rel="stylesheet">
+   
+
+<title>fourfold</title>
+</head>
+
+
+
+<body>
+  <section id=navigationbar>
+  <div style="width:500px;">
+    <img  style="position: absolute;z-index: -1;"src="Graph-Teal-Stretch-Large-Compressed.jpg" alt="">
+  </div>
+    
+<!-- navigationbar -->
+<div>
+  <img style="position: relative;"class="logo" src="logo.png" alt="">
+<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="#page" href="#welcome"style="color:#7e7d7d";> Welcome</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#aboutus" style="color: #7e7d7d;">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#services" style="color: #7e7d7d;">Services</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#leaders" style="color: #7e7d7d;">Leaders</a>
+  </li>
+  <li class="nav-item">
+
+    <button type="button" class="btn btn-secondary btn-lg" style="border-radius:0" ><a style="color: white; text-decoration: none;"href="#footers">   Contact</a></button>
+  </li>
+</ul>
+</div>
+  
+   <section id="welcome">
+      <!-- homepage -->
+      <div  class="home1">
+        
+
+        <div style="position:absolute; transform: translateY(450px);">
+       <h1 style="font-size: 100px;"> Do things better. </h1>
+        <h1 style="font-size:100px;">Do better things.</h1>
+      </div>
+      </div>
+    </section>
+
+
+
+
+    </section>
+    <section id="aboutus" style="    margin: 70% 0 0;">
+      <!-- about us  -->
+      <div class="aboutus">
+        <div style="height: 100%; margin: 5% 0 5% 0;">
+        <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-lg-6" >
+      <h2 style="text-align: left; padding: 3% 5%; font-size: 40px;">FourFold Consulting helps businesses grow and transform.</h2>
+       <p style="font-size: 25px;"> We believe sustainable change happens when there is alignment between the commercial and human aspects of a business. 
+         This thoughtful integration of finance and strategy with leadership and culture is what we know and do. </p>
+        </div>
+        <div class="col-lg-6">
+         <img class="image1"src="Square-Ladder-Blush-Compressed.jpg" alt=""></img>
+        </div>
+        </div>
+      </div>
+    </div>
+      <div>
+        <img style="width:100%;" src="Square-Circle-Blush-Teal-Compressed-Wide.jpg" alt="">
+      </div>
+   
+  
+    </div>
+      </section>
+
+    <section id="services" >
+      <!-- services  -->
+      <div style="border: 25% 0;">
+      <div class="conatiner-fluid">
+        <div class="row">
+          <div class="col-lg-6" style="text-align: left;
+          padding: 15% 5%;">
+      <h1 style="font-size: 60px;">Our Services</h1>
+      <p    style=" font-size: 24px;"">By focusing on profits and people, we help leaders understand how to deploy their biggest sources of capital. </p>
+      <p     style="font-size: 24px;"">We do this across four key areas.</p>
+    </div>
+    <div class="col-lg-6" style="text-align: left;
+    padding: 15% 5%;"">
+      <div class="d-grid">
+        <button class="serviceskey btn btn-outline-secondary" onclick="Services1()" id="myBton">Purpose & Strategy</button>
+        <p><span id="doots"></span><span id="moore"> We support organisations to discover, refine and realise their purpose and strategy. We help think through the financial, competitive, and societal impacts of choices with the aim of running more profitable and responsible businesses.</span></p>
+        <span id="content">We will: <ul>
+                <li>Uncover or discover purpose</li>
+                <li>Define and review strategic plans, vision and values</li>
+                <li>Guide how to govern, lead and live purpose</li>
+            </ul>
+        </span>
+    </div>
+    <!--Second-->
+    <div class="d-grid">
+        <button class="serviceskey btn btn-outline-secondary" onclick="Services2()" id="myBtoon">Value & Growth </button>
+        <p><span id="dooots"></span><span id="mooore"> We work with organisations to size, prioritise and realise opportunities so they can grow, transform and build strategic agility. We also assess organisational capabilities and help evolve them for successful execution.</span></p>
+        <span id="coontent">We will: <ul>
+                <li>Identify revenue and cost opportunities </li>
+                <li>Review acquisition and divestment options</li>
+                <li>Define and sequence transformation and capability agendas</li>
+            </ul>
+        </span>
+    </div>
+    <!--third-->
+    <div class="d-grid">
+        <button class="serviceskey btn btn-outline-secondary" onclick="Services3()" id="myBtooon">Leadership & Culture </button>
+        <p><span id="doooots"></span><span id="moooore"> We work with CEOs and leaders to equip them and their teams to get ahead, get things done and get along. We help understand existing leadership routines and cultural habits and how these need to shift to achieve results.</span></p>
+        <span id="cooontent">We will: <ul>
+                <li>Clarify the role, priorities and behaviours for an effective top team </li>
+                <li>Design and facilitate leadership programs and executive coaching
+                <li>Identify areas of misalignment and outline a plan for change</li>
+            </ul>
+        </span>
+    </div>
+        
+        </div>
+    
+           
+      </div>
+    
+ 
+    </div>
+    </div>
+  
+    </section>
+    <section id="leaders">
+      <!-- leaders  -->
+      <div>
+        <div style=" text-align: center;
+   
+        padding: 3% 15%;
+        font-size: 26px;" >
+        <h1>Our Leaders</h1>
+        <p style="    padding: 3% 12%;">With experience spanning multiple industries, business types and functions, we know what it takes to achieve results in large established companies, both public and private, and to build from the ground up in smaller businesses. </p>
+      </div>
+        <div class="container-fluid ">
+          <div class="row">
+
+
+            <!-- first profile  -->
+            <div class="col-lg-6 ">
+              <div>
+              <img class="profile" src="Anita-Fleming-Profile-Photo-2.jpg" alt="">
+            </div>
+              <div class="leaderscontent">
+              <h2>Anita Fleming</h2>
+              <h3>Co-Founder and Director</h3>
+                <p style=> Anita works with senior leaders across industries to answer business questions about direction, capability, culture and change. From her time at ANZ, Kinrise, Rio Tinto and Hay Group, she brings differentiated experience in linking purpose with strategy, 
+                  aligning teams and coaching leaders to translate business ambition into reality.<br>
+                  <button class="btn btn-outline-secondary readmorebtn" onclick="profile1()" id="myBtn">Read more</button>
+                  <span id="dots"></span><span id="more" style="padding: 3% 5%;"><br>Prior to FourFold Consulting, Anita was General Manager People and Culture at Kinrise. Working closely with the CEO, she helped to integrate several independent food manufacturing businesses to form Kinrise, including establishing the executive team, defining the business strategy, operating model and transformation priorities, flexing between growth and cost agendas, and coordinating the COVID-19 business-wide response.</span></p>
+              </div>
+            </div>
+
+
+              <!-- Second profile  -->
+              <div class="col-lg-6">
+               <div> <img class="profile" src="Kynwynn-Strong-Profile-Photo-2.jpg" alt=""> </div>
+                <div class="leaderscontent">
+                <h2>Kynwynn Strong</h2>
+                <h3>Co-Founder and Director</h3>
+                  <p> Kynwynn works with businesses to define strategy and improve profitability. She has extensive experience in financial analysis, valuation, and competitive positioning. As evidenced in her roles at Goldman Sachs, 
+                    Racing.com and a digital start up, Kynwynn works hand in hand with CEOs and CHROs to drive long term success.<br>
+                    <button class="  btn btn-outline-secondary readmorebtn" onclick="profile2()" id="btn">Read more</button>
+                    <span id="empty"></span><span id="most" style="padding: 3% 5%;"><br>Prior to FourFold Consulting, Kynwynn was the General Manager of Finance and Strategy at Racing.com. In this role she helped transform a disaggregated business into an integrated, cross-functional entity. At the same time, she led the internalisation and restructuring of the finance function to enable greater oversight and control.</span></p>
+                </div>
+              </div>
+       
+        
+      </div>
+      </div>
+      </div>
+    </section>
+
+
+    <section id="contactus">
+      <!-- contactus -->
+      <div class="container-fluid" style="padding: 5% 0 5% 0;">
+        <div class="row">
+          
+            <div  class="col-lg-6 ">
+               <img style="width:500px;" src="Cube-Teal-Compressed.jpg" alt=""></img>
+            </div> 
+            <div class="col-lg-6"> 
+            <h1>Find out how we could work together.</h1>
+            <p>Email us at <a href="gmail">xxx@mail.com</a></p>
+           
+            <!-- class="input-group mb-3" -->
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+            <input type="email" class="form-control" placeholder="Email" aria-label="Server">
+            <input type="tel" class="form-control" placeholder="Phone" aria-label="Username">
+              <input type="text" class="form-control" placeholder="Organisation" aria-label="Username">
+             <div class="input-group">
+               <textarea class="form-control" placeholder="Message"></textarea>
+              </div>
+              <button type="button" class="btn btn-Secondary btn-lg submit" >Submit</button>
+          </div>
+        </div>
+      
+
+      </div>
+    </section>
+    <section id="footers">
+      <!-- footer -->
+      <div class="footer1">
+      <p style="color: white;">Strategy  |  Leadership  |  Culture  |  Value</p>
+      <p style="color: white;">Our purpose is to help leaders build more thoughtful businesses. </p>
+       <p style="color: white;"> Through their courage and success, people and society flourish.</p>
+      <a href="">Privacy Policy | </a>
+      <a href="">  Terms of Use</a>
+      <p style="color: white;">FourFold Consulting 2020. Website by</p><a href=""> Hatch Labs.</a>
+    </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
